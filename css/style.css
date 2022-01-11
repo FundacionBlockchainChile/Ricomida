@@ -1,0 +1,339 @@
+* {
+  margin: 0 auto;
+  padding: 0;
+  /* border: 1px dotted rebeccapurple; */
+}
+
+html {
+  margin: 0 auto;
+}
+
+body {
+  margin: 0 auto;
+  color: #373A3C;
+  /* background: black !important; */
+  font-family: 'Cabin', sans-serif;
+}
+
+img {
+  width: 120%;
+  height: 120%;
+}
+
+.my_container {
+  margin: 0 auto;
+  padding: 0;
+  max-width: 1024px;
+  overflow: hidden;
+}
+
+.my_row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.my_column {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* NAVBAR */
+.navbar {
+  width: 100vw !important;
+  background: #373A3C !important;
+}
+
+.navbar-nav {
+  margin-left: 25vw;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .container-fluid {
+  max-width: 920px;
+}
+
+.navbar-brand {
+  font-size: 46px;
+  font-family: 'Lobster', cursive;
+  margin: 0;
+}
+
+/* FRIST SECTION */
+.first_section {
+  min-height: 384;
+  margin-bottom: 60px;
+}
+
+.first_section h1 {
+  margin: 40px 0;
+  padding: 0 80px 0 0;
+  font-size: 40pt;
+  font-family: 'Cabin', sans-serif;
+  font-weight: bold;
+  border-bottom: 1px solid #373A3C;
+}
+
+.first_section h4 {
+  text-align: left !important;
+  justify-content: flex-start !important;
+  margin: 20px 0;
+}
+
+.image_container {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.center_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.btn_container {
+  width: 100%;
+  margin: 30px 0;
+}
+
+.btn {
+  border: 1px solid gray !important;
+  margin-right: 20px;
+}
+
+.max_width_920 {
+  max-width: 1024px;
+}
+
+.ul_align {
+  margin-left: 40vw !important;
+}
+
+
+/* SECOND SECTION */
+.carousel_section {
+  /* height: 250px; */
+  width: 100%;
+  border-bottom: 1px solid black;
+
+}
+
+.carousel {
+  min-height: 250px;
+  padding-top: 15px;
+}
+
+.my_row {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.item {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between !important;
+}
+
+.item img {
+  height: 170px;
+  width: 233px;
+  margin: 0;
+}
+
+.carousel-indicators {
+  margin-bottom: 20px;
+}
+
+.carousel button {
+  height: 15px !important;
+  width: 15px !important;
+  border-radius: 50%;
+  border: 1px solid gray !important;
+  background: gray !important;
+  margin: 0 10px !important;
+}
+
+.recipe_section {
+  border-bottom: 1px solid black;
+  margin: 30px 0;
+  padding-top: 30px;
+}
+
+.recipe_section h5 {
+  border-bottom: 1px solid black;
+  margin-bottom: 30px;
+  width: 200px;
+  padding: 0;
+  margin: 30px 0;
+  padding-bottom: 10px;
+}
+
+.card-body {
+  width: 100% !important;
+}
+
+/* RECIPES SECTION */
+.card-img-top {
+  max-height: 180px;
+}
+
+
+.section_recipes .fas {
+  font-size: 25px;
+  padding: 5px;
+  color: #DC3545;
+}
+
+/* FOOTER */
+footer {
+  width: 100%;
+  color: white;
+}
+
+.footer_one {
+  background: #DC3545;
+  height: 534px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+
+}
+
+.footer_one button {
+  border: 1px solid white !important;
+  width: 200px;
+  margin: 40px 0;
+}
+
+.footer_one span {
+  font-family: 'Lobster', cursive;
+}
+
+.footer_two {
+  font-family: 'Lobster', cursive;
+  background: #373A3C;
+  height: 127px;
+}
+
+/* MODAL */
+.my_modal {
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+}
+
+.close_modal {
+  position: absolute;
+  top: 170px;
+  left: 76vw;
+  color: red;
+  margin: 0;
+  height: 30px;
+  width: 30px;
+  border-radius: 50%;
+  border: 3px solid red;
+  text-align: center;
+  cursor: pointer;
+}
+
+.my_info h4 {
+  font-family: 'Lobster', cursive;
+  font-size: 40px;
+}
+
+.my_info {
+  width: 60%;
+  height: 50vh;
+  background: white;
+  border-radius: 20px;
+  margin-bottom: 20vh;
+}
+
+.my_modal .my_info input {
+  width: 40% !important;
+  padding: 5px 20px;
+}
+
+.my_modal .my_info button {
+  width: 150px !important;
+  margin: 20px auto;
+}
+
+@media (max-width: 768px) {
+  .carousel_section {
+    display: none;
+  }
+
+  .navbar-nav {
+    margin-left: 0;
+  }
+
+  .first_section h1 {
+    margin: 20px 0;
+    padding: 0;
+    font-size: 25pt;
+    text-align: center;
+  }
+
+  .first_section h4 {
+    text-align: center !important;
+    justify-content: flex-start !important;
+  }
+
+  .first_section .btn_container {
+    display: flex;
+    justify-content: space-between !important;
+    align-items: space-around !important;
+  }
+
+  .first_section .btn {
+    width: 112px !important;
+    padding: 10px 0 !important;
+    margin: 0;
+    font-size: 13px;
+  }
+
+  .padding_small_screen {
+    padding: 0 30px !important;
+  }
+
+  .first_section {
+    margin: 0;
+  }
+
+  .close_modal {
+    top: 40px;
+    left: 80vw;
+  }
+
+  .my_info {
+    width: 85%;
+    height: 70vh;
+  }
+
+  .my_modal .my_info input {
+    width: 80% !important;
+  }
+
+  .my_modal .my_info button {
+    width: 150px !important;
+  }
+}
